@@ -1,0 +1,19 @@
+#Branching strat.
+feat/Homepage-api-integration
+bugFix/Home-api-integ-cant-get-data
+
+#New Task (Bugfix | Apply New Feature)
+
+git fetch -a
+git pull
+//Make sure na nasa main branch
+git checkout -b <branch_name> || git checkout <branch_name>
+
+#Commit changes | Push changes
+
+git add . => all 
+git commit -m "feat/Homepage-api-integration"
+git push 
+
+Note. pag first time expect this ==> (git push --set-upstream origin feat/sample-api-response-structure) => Template
+- just copy and paste it => git push --set-upstream origin feat/sample-api-response-structure -> hit enter
