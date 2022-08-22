@@ -18,7 +18,7 @@ const Index = () => {
 
   return (
     <View style={styles.main}>
-      <Text>HOME</Text>
+      <Text>wehh</Text>
     </View>
   )
 }
